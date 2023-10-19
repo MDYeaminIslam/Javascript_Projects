@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  margin: 100px auto 100px;
+  min-height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+
+.button{
+  border: 1px solid black;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  display: inline-flex; /* Use flex to center vertically and horizontally */
+  align-items: center; /* Vertically center text */
+  justify-content: center; /* Horizontally center text */
+  text-align: center;
+}
+
+#black{
+  background-color: black;
+  color: white;
+}
+
+#red{
+  background-color: red;
+  color: white;
+}
+
+#blue{
+  background-color: blue;
+  color: white;
+}
+
+#green{
+  background-color: green;
+  color: white;
+}
+
+#yellow{
+  background-color: yellow;
+  color: black;
+}
+
+h2,h5{
+  margin: 20px 0;
+
+}
