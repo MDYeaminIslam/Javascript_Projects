@@ -3,7 +3,7 @@ console.log(buttons);
 
 buttons.forEach((button) => {
   button.addEventListener('click', (e) =>{
-    console.log(e.target);
+    // console.log(e.target);
 
     switch(e.target.id){
       case "black":
