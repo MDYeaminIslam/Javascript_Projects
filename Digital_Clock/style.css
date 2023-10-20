@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #155263;
+
+}
+
+h3{
+  color: #ff5722;
+  font-size: 50px;
+
+
+}
+
+h3:hover{
+  color: #ff0000;
+}
+
+#time{
+  height: 50px;
+  width: 300px;
+  border-radius: 15px;
+  background: #fff;
+  font-size: 30px;
+  margin: 5px 5px 5px 5px;
+  padding: 10px 40px 10px 80px;
+  background: #be3144;
+  color:#feffdf;
+}
